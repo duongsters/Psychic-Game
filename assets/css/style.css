@@ -10,6 +10,8 @@ body {
 
 html {
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
 
 header {
@@ -19,14 +21,33 @@ header {
 
 .border {
     position: relative; 
-    margin-bottom: 1000px;
     text-align: center;
+    
 }
 
 .row {
     font-size: xx-large;
-    height: ;
-    width: ;
-    border: red;
+text-align: justify;
+  
 }
 
+
+.col-md-6 {
+    content: '';
+    position: absolute;
+    top: 50%; right:25%; bottom: 50%; left: 25%;
+    z-index: -1;
+    margin: border; 
+    border-radius: inherit; 
+    background: linear-gradient(to bottom,rgb(191,250,0), #158515, rgb(17, 63, 2) );
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+h3 {
+    color: white;
+    margin: border; 
+    background: linear-gradient(to bottom,rgb(191,250,0), #158515, rgb(17, 63, 2) );
+}
