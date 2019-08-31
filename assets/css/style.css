@@ -31,6 +31,11 @@ text-align: justify;
   
 }
 
+#psychicBoard {
+    margin-top: 200px;
+    padding: 20px;
+}
+
 
 .col-md-6 {
     content: '';
@@ -51,3 +56,4 @@ h3 {
     margin: border; 
     background: linear-gradient(to bottom,rgb(191,250,0), #158515, rgb(17, 63, 2) );
 }
+
